@@ -1,0 +1,101 @@
+/* Configuración general */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 20px;
+    background: linear-gradient(135deg, #eef2f3, #dfe9f3);
+}
+
+/* Título principal */
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Contenedor del formulario */
+.formulario {
+    text-align: center;
+    margin-bottom: 25px;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Inputs */
+input {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    transition: 0.3s;
+}
+
+input:focus {
+    border-color: #007BFF;
+    box-shadow: 0 0 5px rgba(0,123,255,0.4);
+}
+
+/* Botones */
+button {
+    padding: 10px 14px;
+    cursor: pointer;
+    border: none;
+    background: #007BFF;
+    color: white;
+    border-radius: 6px;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #0056b3;
+    transform: scale(1.05);
+}
+
+/* Tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Celdas */
+th, td {
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+    text-align: center;
+}
+
+/* Encabezado */
+th {
+    background: #007BFF;
+    color: white;
+}
+
+/* Filas alternas */
+tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+/* Botones específicos */
+button.eliminar {
+    background: #dc3545;
+}
+
+button.eliminar:hover {
+    background: #a71d2a;
+}
+
+button.editar {
+    background: #ffc107;
+    color: black;
+}
+
+button.editar:hover {
+    background: #e0a800;
+}
